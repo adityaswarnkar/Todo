@@ -56,6 +56,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     marginBottom: 50,
     color: '#FFF',
+    fontFamily: 'Roboto-Regular',
   },
   buttonContainer: {
     width: '60%',
@@ -75,5 +76,6 @@ const styles = StyleSheet.create({
   closeButtonText: {
     color: '#D9D9D9',
     fontSize: 10,
+    fontFamily: 'Roboto-Regular',
   },
 });

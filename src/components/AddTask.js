@@ -78,6 +78,7 @@ const styles = StyleSheet.create({
     padding: 8,
     color: '#F0E3CA',
     backgroundColor: '#1F1E1B',
+    fontFamily: 'Roboto-Regular',
   },
   button: {
     height: 70,
@@ -91,5 +92,6 @@ const styles = StyleSheet.create({
   buttonText: {
     fontSize: 24,
     color: '#FF8303',
+    fontFamily: 'Roboto-Regular',
   },
 });

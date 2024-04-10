@@ -145,6 +145,7 @@ export default function TaskList() {
 
 const styles = StyleSheet.create({
   mainContainer: {
+    flex: 1,
     marginTop: 40,
   },
   container: {
@@ -186,6 +187,7 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: '400',
     color: '#FFF',
+    fontFamily: 'Roboto-Regular',
   },
   editContainer: {
     flexDirection: 'row',
@@ -197,12 +199,14 @@ const styles = StyleSheet.create({
     fontSize: 22,
     fontWeight: '500',
     color: '#F0E3CA',
+    fontFamily: 'Roboto-Regular',
   },
   aboutText: {
     height: 16,
     fontSize: 14,
     fontWeight: '400',
     color: '#F0E3CA',
+    fontFamily: 'Roboto-Regular',
   },
   buttonDelete: {
     height: 32,
@@ -211,5 +215,6 @@ const styles = StyleSheet.create({
   buttonText: {
     fontSize: 24,
     color: '#FF8303',
+    fontFamily: 'Roboto-Regular',
   },
 });

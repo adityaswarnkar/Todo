@@ -97,6 +97,7 @@ const styles = StyleSheet.create({
     padding: 8,
     color: '#F0E3CA',
     backgroundColor: '#1F1E1B',
+    fontFamily: 'Roboto-Regular',
   },
   buttonContainer: {
     width: '60%',
@@ -117,5 +118,6 @@ const styles = StyleSheet.create({
   closeButtonText: {
     color: '#D9D9D9',
     fontSize: 10,
+    fontFamily: 'Roboto-Regular',
   },
 });
